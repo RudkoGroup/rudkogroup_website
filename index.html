@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudko Group Placeholder</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;500&display=swap');
+
+        body {
+            font-family: 'Geologica', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+            color: #000;
+            position: relative;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        /* Заголовок "Proactive Solutions for Your Success" */
+        .headline {
+            font-family: 'Geologica', sans-serif;
+            font-weight: 500;
+            font-size: 4vw;
+            line-height: 5vw;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* Подзаголовок "Contact us now" с измененным цветом */
+        .subheadline {
+            font-family: 'Geologica', sans-serif;
+            font-weight: 500;
+            font-size: 2.5vw;
+            line-height: 3vw;
+            text-align: center;
+            color: #305573; /* Новый цвет */
+            margin-bottom: 20px;
+        }
+
+        /* Иконки */
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            fill: #4a6477;
+            transition: fill 0.3s;
+        }
+
+        .icon:hover {
+            fill: #1f3a52;
+        }
+
+        /* Контактная информация */
+        .contact {
+            font-family: 'Geologica', sans-serif;
+            font-weight: 400;
+            font-size: 1.5vw;
+            line-height: 2vw;
+            text-align: center;
+            color: #333;
+        }
+
+        .contact a {
+            color: #1f3a52;
+            text-decoration: none;
+        }
+
+        /* Декоративные элементы */
+        .decor-top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 35%;
+            height: auto;
+        }
+
+        .decor-bottom-left {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 35%;
+            height: auto;
+        }
+
+        /* Адаптивный дизайн для разных экранов */
+        @media (max-width: 768px) {
+            .headline {
+                font-size: 6vw;
+                line-height: 7vw;
+            }
+
+            .subheadline {
+                font-size: 4.5vw;
+                line-height: 5.5vw;
+            }
+
+            .contact {
+                font-size: 3vw;
+                line-height: 4vw;
+            }
+
+            .logo img {
+                width: 120px;
+            }
+
+            .icons .icon {
+                width: 35px;
+                height: 35px;
+            }
+
+            .decor-top-right, .decor-bottom-left {
+                width: 60%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .headline {
+                font-size: 8vw;
+                line-height: 9vw;
+            }
+
+            .subheadline {
+                font-size: 6vw;
+                line-height: 7vw;
+            }
+
+            .contact {
+                font-size: 4vw;
+                line-height: 5vw;
+            }
+
+            .logo img {
+                width: 100px;
+            }
+
+            .icons .icon {
+                width: 30px;
+                height: 30px;
+            }
+
+            .decor-top-right, .decor-bottom-left {
+                width: 65%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Replace with external SVG logo -->
+        <div class="logo">
+            <img src="rudko-group-logo.svg" alt="Rudko Group Logo" width="150">
+        </div>
+        <div class="headline">Proactive Solutions for Your Success</div>
+        <div class="subheadline">Contact us now</div>
+        <div class="icons">
+            <!-- Telegram Icon -->
+            <a href="https://t.me/AlexRudko" target="_blank" aria-label="Telegram">
+                <img src="telegram-icon.svg" alt="Telegram" class="icon">
+            </a>
+            <!-- WhatsApp Icon -->
+            <a href="https://wa.me/35796118414" target="_blank" aria-label="WhatsApp">
+                <img src="whatsapp-icon.svg" alt="WhatsApp" class="icon">
+            </a>
+            <!-- LinkedIn Icon -->
+            <a href="https://linkedin.com/in/username" target="_blank" aria-label="LinkedIn">
+                <img src="linkedin-icon.svg" alt="LinkedIn" class="icon">
+            </a>
+        </div>
+        <div class="contact">
+            <div>+357 96 118414</div>
+            <div><a href="mailto:contact@rudkogroup.com">contact@rudkogroup.com</a></div>
+        </div>
+    </div>
+
+    <!-- Decorative Elements -->
+    <img src="top-right.svg" alt="Decor Top Right" class="decor-top-right">
+    <img src="bottom-left.svg" alt="Decor Bottom Left" class="decor-bottom-left">
+</body>
+</html>
